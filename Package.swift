@@ -21,7 +21,7 @@ let package = Package(
             dependencies: []),
         .binaryTarget(
             name: "RemoteBinaryMaliciousActor",
-            url: "https://url/to/some/remote/xcframework.zip",
+            url: "https://github.com/bavarskis/maliciousActor/blob/main/MaliciousActor.xcframework.zip",
             checksum: "432e4e157396fd9ed0ac5234392c4d9dfe9bb490cc6bcc91e030a22fbecef6b3"
         )
     ]
