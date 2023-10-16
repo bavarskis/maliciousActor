@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "MaliciousPackage",
-            targets: [ "MaliciousBinaryLocal"]),
+            targets: [ "MaliciousBinary"]),
     ],
     dependencies: [],
     targets: [
